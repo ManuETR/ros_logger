@@ -1,0 +1,12 @@
+log:
+  ip: 127.0.0.1
+  port: 5314
+  
+rosbridge:
+  ip: 127.0.0.1
+  port: 9090
+  log_only_changes: true
+
+topics:
+  /joint_states: sensor_msgs/msg/JointState
+  
